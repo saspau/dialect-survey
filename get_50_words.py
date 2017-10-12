@@ -58,7 +58,7 @@ def change_region(loc):
 ### getting 50 most discriminating words for each region; output to csv file
 def get_words(loc):
     
-#     savefile = os.path.join(outputdir, loc + '.csv')
+    savefile = os.path.join(outputdir, loc + '.csv')
 
     cities = []
     regions = []
